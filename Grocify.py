@@ -4,7 +4,6 @@ from csv import DictWriter
 from PIL import Image
 import pandas as pd
 
-#########################################################################
 class FruitApp:
 
     def SignIn(self):
@@ -45,7 +44,7 @@ class FruitApp:
         back_welcomescreen = Button(self.root,text='Back',font=('Product Sans',18),width=10,command=FruitApp)
         back_welcomescreen.pack(pady=10)
 
-#########################################################################
+
 
     def pay(self):
 
@@ -75,7 +74,7 @@ class FruitApp:
 
         self.root.mainloop()
 
-#########################################################################
+
 
     def database(self):
         self.root.destroy()
@@ -222,7 +221,7 @@ class FruitApp:
 
         self.root.mainloop()
 
-#########################################################################
+
 
     def signup(self):
         self.root.destroy()
@@ -292,7 +291,7 @@ class FruitApp:
 
         self.root.mainloop()
 
-#########################################################################
+
 
     def welcome_screen(self):
         self.root = Tk()
@@ -318,7 +317,7 @@ class FruitApp:
 
         self.root.mainloop()
 
-#########################################################################
+
 
 f = FruitApp()
 if __name__ == '__main__':
